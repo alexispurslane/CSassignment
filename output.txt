@@ -1,0 +1,36 @@
+------- file.txt ----------
+Output file path: file.txt
+Loading 'file.txt'...
+This file exists. Overwrite (Y/n)? y
+
+Begin entering lines for file:
+1: foo
+2: bar
+3:
+File length is: 8
+3: baz
+File length is: 11
+
+File read-back:
+Line 0: foo
+Line 1: bar
+Line 2: baz
+
+------------ file2.txt ------------
+Output file path: file2.txt
+Loading 'file2.txt'...
+
+Begin entering lines for file:
+1: This is a first line
+2: this is a second line
+3: this is a long long super long third line
+4:
+File length is: 85
+4: final line, whew
+File length is: 101
+
+File read-back:
+Line 0: This is a first line
+Line 1: this is a second line
+Line 2: this is a long long super long third line
+Line 3: final line, whew
